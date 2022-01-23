@@ -5,7 +5,7 @@ function Person(n, a) {
 }
 
 // 인스턴스들이 모두 공통으로 가지는 정보들은 prototype으로 보낸다.=>메모리 용량 최적화
-// 객체지향적 관점 => 사람들은 모두 나이를 먹고(setOlder), 각자의 나이를 알 수 있다.(getAge) => 일반화된 특징들은 prototype으로 설명할 수 있다.
+// 객체지향적 관점 => 사람들은 모두 나이를 먹고(setOlder), 각자의 나이를 알 수 있다.(getAge) => 일반화된 특징들은 prototype으로 설명할 수 있다.(특정 집단의 공통된 속성 파악)
 Person.prototype.setOlder = function() {
   this.age += 1;
 }
